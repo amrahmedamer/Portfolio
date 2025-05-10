@@ -1,0 +1,64 @@
+AMR AHMED
+Junior .NET Developer
+Port Said, Egypt
+Email: [Your Email]
+Phone: +201029409898
+LinkedIn: https://www.linkedin.com/in/amr-ahmed-22a10b244
+GitHub: https://github.com/amrahmedamer
+
+PROFESSIONAL SUMMARY
+Results-driven Junior .NET Developer with hands-on experience in developing scalable web applications using ASP.NET Core and modern software architecture principles. Demonstrated expertise in building secure, efficient, and user-friendly applications with focus on clean code and best practices. Proven ability to deliver complex projects incorporating IoT integration, payment processing, and multilingual support.
+
+TECHNICAL SKILLS
+Languages: C#, JavaScript, SQL, C/C++, PHP
+Frameworks: ASP.NET Core, ASP.NET MVC, Web API, Entity Framework Core
+Frontend: HTML5, CSS3, Bootstrap, jQuery
+Databases: Microsoft SQL Server, MySQL
+Tools: Visual Studio, VS Code, Git, Azure DevOps
+Architecture: Clean Architecture, SOLID Principles, Design Patterns
+Additional: RESTful APIs, Microservices, Unit Testing
+
+EDUCATION
+Bachelor's Degree in Information Technology and System (2021-2025)
+[University Name]
+Port Said, Egypt
+
+PROJECTS
+
+Survey Basket | Full-Stack Web Application
+- Developed a comprehensive survey management platform enabling creation, distribution, and analysis of surveys
+- Implemented secure role-based authentication system using ASP.NET Core Identity
+- Designed scalable database schema handling thousands of survey responses using SQL Server
+- Built automated email notification system for survey distribution and response collection
+- Technologies: ASP.NET Core MVC, Entity Framework Core, SQL Server, Clean Architecture
+
+Raknah (Smart Parking System) | IoT-Integrated Web Application
+- Engineered smart parking system with real-time management and automated access control
+- Integrated IoT sensors (ESP32) with web platform for real-time parking spot status updates
+- Implemented automated payment processing and booking system
+- Developed real-time notification system using SignalR
+- Technologies: ASP.NET Core, Web API, Hangfire, SignalR, Microservices Architecture
+
+Bookify (Library Management) | Multilingual Web Application
+- Created comprehensive library management system with multilingual support
+- Implemented automated late return notification system using Hangfire
+- Developed detailed reporting system using Crystal Reports
+- Built subscription management system with automated renewals
+- Technologies: ASP.NET Core, Entity Framework Core, Crystal Reports, N-tier Architecture
+
+KEY COMPETENCIES
+- Full-stack Web Development
+- Database Design & Optimization
+- API Development & Integration
+- Authentication & Authorization
+- Responsive UI Development
+- Version Control & Deployment
+- Problem Solving & Debugging
+- Team Collaboration
+
+LANGUAGES
+- Arabic (Native)
+- English (Professional Working Proficiency)
+
+CERTIFICATIONS
+[Add any relevant certifications here] 
