@@ -248,4 +248,40 @@ body {
 
 .nav-link:hover::after {
     width: 100%;
+}
+
+/* CV Section Styles */
+.cv-buttons {
+    margin-bottom: 20px;
+}
+
+.cv-buttons .btn {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.cv-buttons .btn-outline-primary {
+    border: 2px solid var(--primary-color);
+}
+
+.cv-buttons .btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.cv-info {
+    color: var(--secondary-color);
+}
+
+@media (max-width: 576px) {
+    .cv-buttons .btn {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .cv-buttons .btn:last-child {
+        margin-bottom: 0;
+    }
 } 
