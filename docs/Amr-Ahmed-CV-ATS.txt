@@ -1,7 +1,7 @@
 AMR AHMED
 Junior .NET Developer
 Port Said, Egypt
-Email: [Your Email]
+Email: amrahmedamer@gmail.com
 Phone: +201029409898
 LinkedIn: https://www.linkedin.com/in/amr-ahmed-22a10b244
 GitHub: https://github.com/amrahmedamer
@@ -20,7 +20,7 @@ Additional: RESTful APIs, Microservices, Unit Testing
 
 EDUCATION
 Bachelor's Degree in Information Technology and System (2021-2025)
-[University Name]
+Port Said University
 Port Said, Egypt
 
 PROJECTS
