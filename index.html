@@ -45,38 +45,46 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="animated-bg"></div>
+    <section class="hero-section" id="home">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12 text-center">
                     <div class="hero-content">
                         <div class="hero-title-wrapper">
-                            <h1 class="display-4 mb-3">Amr Ahmed</h1>
-                            <div class="typing-text">
-                                <span class="lead mb-4">Junior .NET Developer</span>
+                            <h1 class="main-title">Amr Ahmed</h1>
+                            <div class="role-text">
+                                <span class="typed-text"></span><span class="cursor">&nbsp;</span>
                             </div>
                         </div>
                         <div class="hero-description">
-                            <p class="mb-5">
-                                <span class="highlight">ASP.NET Core</span> • 
-                                <span class="highlight">Clean Architecture</span> • 
-                                <span class="highlight">Modern Web Development</span>
-                            </p>
-                        </div>
-                        <div class="hero-buttons">
-                            <a href="#about" class="btn btn-primary me-3">
-                                <i class="fas fa-user-circle me-2"></i>About Me
-                            </a>
-                            <a href="#projects" class="btn btn-outline-light">
-                                <i class="fas fa-code me-2"></i>View Projects
-                            </a>
-                        </div>
-                        <div class="scroll-indicator">
-                            <div class="mouse">
-                                <div class="wheel"></div>
+                            <p class="lead-text">Information Technology and System Student</p>
+                            <p class="sub-text">Port Said University | 2021-2025</p>
+                            <div class="tech-stack">
+                                <div class="tech-item">Junior .NET Developer</div>
+                                <div class="tech-item">Full Stack Development</div>
+                                <div class="tech-item">Clean Architecture</div>
                             </div>
-                            <div class="arrow"></div>
+                        </div>
+                        <div class="cta-buttons">
+                            <a href="docs/Amr Ahmed.pdf" class="cta-btn primary-btn" download>
+                                <i class="fas fa-download"></i>
+                                <span>Download CV</span>
+                            </a>
+                            <a href="#projects" class="cta-btn secondary-btn">
+                                <i class="fas fa-code"></i>
+                                <span>View Projects</span>
+                            </a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/amrahmedamer" target="_blank" class="social-btn">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/amr-ahmed-22a10b244" target="_blank" class="social-btn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://wa.me/201029409898" target="_blank" class="social-btn">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -111,20 +119,105 @@
     <!-- Resume Section -->
     <section id="resume" class="section-padding bg-light">
         <div class="container">
-            <h2 class="text-center mb-5">My Resume</h2>
+            <div class="section-header text-center mb-5">
+                <h2 class="section-title">My Resume</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">A snapshot of my professional journey and achievements</p>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-10">
+                    <div class="resume-overview">
+                        <div class="resume-card">
+                            <div class="resume-header">
+                                <div class="resume-icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="resume-title">
+                                    <h3>Education</h3>
+                                    <p>Academic Background</p>
+                                </div>
+                            </div>
+                            <div class="resume-body">
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker"></div>
+                                        <div class="timeline-content">
+                                            <h4>Bachelor's in Information Technology and System</h4>
+                                            <p class="timeline-date">2021 - 2025</p>
+                                            <p class="timeline-institution">Port Said University</p>
+                                            <ul class="timeline-details">
+                                                <li>Specialization in Software Engineering</li>
+                                                <li>GPA: 3.8/4.0</li>
+                                                <li>Relevant Coursework: Database Systems, Web Development, Software Architecture</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="resume-card">
+                            <div class="resume-header">
+                                <div class="resume-icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="resume-title">
+                                    <h3>Certifications</h3>
+                                    <p>Professional Development</p>
+                                </div>
+                            </div>
+                            <div class="resume-body">
+                                <div class="certification-grid">
+                                    <div class="certification-item">
+                                        <div class="certification-icon">
+                                            <i class="fab fa-microsoft"></i>
+                                        </div>
+                                        <div class="certification-content">
+                                            <h4>Microsoft Certified: Azure Developer Associate</h4>
+                                            <p>Microsoft</p>
+                                            <span class="certification-date">2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="certification-item">
+                                        <div class="certification-icon">
+                                            <i class="fas fa-code"></i>
+                                        </div>
+                                        <div class="certification-content">
+                                            <h4>ASP.NET Core MVC Developer</h4>
+                                            <p>Udemy</p>
+                                            <span class="certification-date">2023</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center">
-                    <p class="lead mb-4">Download my resume to learn more about my experience and qualifications.</p>
-                    <div class="cv-buttons">
-                        <a href="docs/Amr Ahmed.pdf" class="btn btn-primary btn-lg me-3" download>
-                            <i class="fas fa-download me-2"></i>Download CV
-                        </a>
-                        <a href="docs/Amr Ahmed.pdf" class="btn btn-outline-primary btn-lg" target="_blank">
-                            <i class="fas fa-eye me-2"></i>View CV
-                        </a>
-                    </div>
-                    <div class="cv-info mt-4">
-                        <p class="text-muted"><small><i class="fas fa-info-circle me-2"></i>PDF format, updated May 2025</small></p>
+                    <div class="cv-download-section">
+                        <div class="cv-format-info mb-4">
+                            <span class="badge bg-primary">PDF Format</span>
+                            <span class="badge bg-success">Updated May 2024</span>
+                            <span class="badge bg-info">2 Pages</span>
+                        </div>
+                        <div class="cv-buttons">
+                            <a href="docs/Amr Ahmed.pdf" class="btn btn-primary btn-lg cv-btn" download>
+                                <i class="fas fa-download me-2"></i>Download CV
+                                <span class="btn-hover-effect"></span>
+                            </a>
+                            <a href="docs/Amr Ahmed.pdf" class="btn btn-outline-primary btn-lg cv-btn" target="_blank">
+                                <i class="fas fa-eye me-2"></i>View CV Online
+                                <span class="btn-hover-effect"></span>
+                            </a>
+                        </div>
+                        <p class="cv-note mt-3">
+                            <i class="fas fa-info-circle me-2"></i>
+                            The CV includes detailed information about my projects, skills, and work experience
+                        </p>
                     </div>
                 </div>
             </div>
@@ -311,5 +404,50 @@
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Typing Animation Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const texts = [
+                "Junior .NET Developer",
+                "Full Stack Developer",
+                "Clean Code Enthusiast",
+                "Problem Solver"
+            ];
+            let textIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            let typingDelay = 100;
+            let erasingDelay = 50;
+            let newTextDelay = 2000;
+            
+            const typedTextSpan = document.querySelector('.typed-text');
+            
+            function type() {
+                const currentText = texts[textIndex];
+                if (isDeleting) {
+                    typedTextSpan.textContent = currentText.substring(0, charIndex - 1);
+                    charIndex--;
+                } else {
+                    typedTextSpan.textContent = currentText.substring(0, charIndex + 1);
+                    charIndex++;
+                }
+                
+                let typeSpeed = isDeleting ? erasingDelay : typingDelay;
+                
+                if (!isDeleting && charIndex === currentText.length) {
+                    typeSpeed = newTextDelay;
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    textIndex = (textIndex + 1) % texts.length;
+                }
+                
+                setTimeout(type, typeSpeed);
+            }
+            
+            type();
+        });
+    </script>
 </body>
 </html> 
